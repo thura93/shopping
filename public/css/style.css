@@ -1,0 +1,166 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+.col-sm-10{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+footer .container .row .col-sm-5 p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+footer .container .row .col-sm-5 span .fa-mobile{
+    font-size: 30px;
+}
+
+.product-header{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: aqua;
+}
+
+.product-header:hover{
+    color: rgb(125, 176, 252);
+}
+
+.categories{
+    text-decoration: none;
+    color: rgb(3, 162, 162);
+    padding: 8px;
+}
+
+.categories:hover{
+    transition: .5s all;
+    text-indent: 10px;
+    color: rgb(4, 252, 252);
+}
+
+.categories.active{
+    transition: .1s all;
+    color: rgb(4, 252, 252);
+}
+
+.quick-links li a{
+    text-decoration: none;
+    color: rgb(3, 162, 162);
+    font-weight: 700;
+}
+
+.quick-links li:hover{
+    transition: .5s all;
+    text-indent: 10px;
+    color: rgb(4, 252, 252);
+}
+
+.quick-links li a:hover{
+    transition: .5s all;
+    text-indent: 10px;
+    color: rgb(4, 252, 252);
+}
+
+.quick-links li a.active{
+    transition: .5s all;
+    text-indent: 30px;
+    color: rgb(4, 252, 252);
+}
+
+.categories-scroll{
+    max-height: 350px;
+    padding: 1rem;
+    overflow-y: auto;
+    direction: ltr;
+    scrollbar-color: #3e3e3e #e4e4e4;
+    scrollbar-width: thin;
+}
+.brands-scroll{
+    max-height: 480px;
+    padding: 1rem;
+    overflow-y: auto;
+    direction: ltr;
+    scrollbar-color: #3e3e3e #e4e4e4;
+    scrollbar-width: thin;
+}
+.product-menu{
+    background-color: #3e3e3e;
+}
+.product-menu li a{
+    color: aquamarine;
+    padding: 8px;
+}
+
+.product-menu li a:hover{
+    color: aquamarine;
+    background-color: #232323;
+}
+
+#product-detailImg{
+    max-width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid rgb(5, 255, 230);
+}
+
+.thumbnail{
+    object-fit: cover;
+    max-width: 180px;
+    max-height: 100px;
+    cursor: pointer;
+    opacity: 0.5;
+    margin: 5px;
+    border: 2px solid rgb(5, 255, 230);
+}
+
+.thumbnail:hover{
+    opacity: 1;
+}
+
+.thumbnail.active{
+    opacity: 1;
+}
+
+#slide-wrapper{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+#slider{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+#slide-wrapper span#slideLeft{
+    font-size: 28px;
+    color: aqua;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#slide-wrapper span#slideLeft:hover{
+    opacity: .5;
+}
+
+#slide-wrapper span#slideRight{
+    font-size: 28px;
+    color: aqua;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#slide-wrapper span#slideRight:hover{
+    opacity: .5;
+}
+
+@media screen and (min-width: 430px) {
+    .thumbnail{
+        max-width: 50%;
+    }
+  }
+
+  
